@@ -2,7 +2,9 @@ import React from "react";
 
 function OK(){
     return(
-        <h1>js</h1>
+        <>
+        <h1></h1>
+        </>
     )
 }
 
