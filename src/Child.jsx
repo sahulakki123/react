@@ -1,23 +1,23 @@
 import React from "react";
 
 
-const Child=({Clothes})=>{
+const Child=({title,brand,Price, Des})=>{
 
 
-    let {Title, Brand, Price, Des} = Clothes
+//     let {Title, Brand, Price, Des} = Clothes
 
     //Destructuring
-// const Child=({title, brand, Price})=>{
+// const Child=()=>{
     return(
 
         <>
-        <h1>{Title}</h1>mm
-        <h1>{Brand}</h1>
-        <h1>{Price}</h1>
+        <h1 className="bg-amber-400">{title}</h1>
+        <h1>{brand}</h1>
+        <h1 className="c-">{Price}</h1>
         <h1>{Des}</h1>
-        {/* <h3>{brand}</h3>
+        {/* <h1>{Des}</h1>
+        <h3>{brand}</h3>
         <h4>{Price}</h4> */}
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, esse?
        
         </>
     )
